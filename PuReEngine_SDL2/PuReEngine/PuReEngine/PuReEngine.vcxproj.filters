@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{631940b6-4130-4439-b22b-01cdc32d8691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header">
+      <UniqueIdentifier>{949909eb-49b4-4ded-8110-978d5d2cfb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{536af053-0caa-4795-b6a0-6a175358156c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ac5c6803-de50-4d93-b1bd-00d5ba7e5cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Variables">
+      <UniqueIdentifier>{a05c49b3-e0f5-4fa2-bb25-45ae4bf57c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic">
+      <UniqueIdentifier>{94df3a27-1deb-47fa-a639-e6ac5591bf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Audio">
+      <UniqueIdentifier>{3dab3e56-3a7e-4f1a-a9aa-5336395bdcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Window">
+      <UniqueIdentifier>{01fba5c1-4981-43bf-91b0-596a78a42c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Declaration">
+      <UniqueIdentifier>{0b397e9b-6c6a-41d7-b99f-4696a5f25cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Input">
+      <UniqueIdentifier>{56a561be-4642-4cdc-9807-b7d4e69576f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Tools">
+      <UniqueIdentifier>{88115580-92de-4844-8e86-530c1a1d21db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic">
+      <UniqueIdentifier>{31faaef7-cd10-4af6-b915-b7da098d2a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Audio">
+      <UniqueIdentifier>{d5a45fb0-4769-45b6-810b-95b1b0e6239c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Input">
+      <UniqueIdentifier>{0c5bb581-6eb2-4da1-b715-1c4c7c214906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Tools">
+      <UniqueIdentifier>{ee5e1d1d-be75-482b-8cd1-b5b6bd0e3213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Window">
+      <UniqueIdentifier>{fa93a6bb-89b5-4689-ad93-ffeb209fc470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Variables">
+      <UniqueIdentifier>{b0c49c74-8623-4d6c-a496-689136afc316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic\2D">
+      <UniqueIdentifier>{7320c655-0845-4b8b-9397-d24ec194129e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic\3D">
+      <UniqueIdentifier>{5e1fd97d-ee49-49df-af5d-a1fd6ec05314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic\2D">
+      <UniqueIdentifier>{55b7e012-8ff7-45e6-b419-d5560cd5c07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic\3D">
+      <UniqueIdentifier>{1a5b0ab3-c18e-4e76-a2a4-ba61d1ac7940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic\Geometry">
+      <UniqueIdentifier>{29ba09a4-4bf5-4082-991d-5db94387ef06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic\Geometry">
+      <UniqueIdentifier>{c7f29359-7a86-4b61-9442-c8b6ca74a035}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Engine\Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaInterface.cpp">
+      <Filter>Engine\Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Engine\Source\Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine\Source\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Source\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Engine\Source\Graphic\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Source\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Engine\Source\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Engine\Source\Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Engine\Source\Variables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Engine\Header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Engine\Header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Engine\Header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Engine\Header\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Engine\Header\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Engine\Header\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineDescription.h">
+      <Filter>Engine\Header\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowDescription.h">
+      <Filter>Engine\Header\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaInterface.h">
+      <Filter>Engine\Header\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Header\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Header\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Header\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Engine\Header\Graphic\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Header\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Engine\Header\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PuReCore.h">
+      <Filter>Engine\Header\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+</Project>

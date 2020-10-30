@@ -1,0 +1,11 @@
+Für die Engine wird benötigt:
+
+Opengl testen:
+glxinfo | grep OpenGL
+(Shader Language 1.4 mindestens benötigt)
+
+Linker:
+-lSDL2 -lSDL2main -lGL -lGLEW -llua5.2 -lSDL2_mixer -lsmpeg
+
+Zu installen:
+(libsdl2-dev , libglew-dev, liblua5.2-dev, libsdl2-mixer-dev, g++ , libsmepg, Code::Blocks)
